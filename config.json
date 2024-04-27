@@ -1,0 +1,47 @@
+{
+  "extensionName": "Virtual Workforce Chrome Extension",
+  "version": "1.0",
+  "defaultSettings": {
+    "active": true,
+    "contentSyncEnabled": true,
+    "analyticsDashboardEnabled": true,
+    "crmIntegrationEnabled": true,
+    "complianceMonitoringEnabled": true,
+    "realTimeCollaborationEnabled": true
+  },
+  "aiConfigurations": {
+    "googleAI": {
+      "apiKey": "YOUR_GOOGLE_AI_API_KEY"
+    },
+    "openAI": {
+      "apiKey": "YOUR_OPENAI_API_KEY"
+    },
+    "inworldAI": {
+      "apiKey": "YOUR_INWORLD_AI_API_KEY"
+    },
+    "anthropic": {
+      "apiKey": "YOUR_ANTHROPIC_API_KEY"
+    },
+    "stableDiffusion": {
+      "apiKey": "YOUR_STABLE_DIFFUSION_API_KEY"
+    }
+  },
+  "securityConfigurations": {
+    "encryptionAlgorithm": "aes-256-ctr",
+    "secretKey": "vOVH6sdmpNWjRRIqCc7rdxs01lwHzfr3", // Note: Replace with a secure key in production
+    "ivLength": 16
+  },
+  "apiEndpoints": {
+    "medium": "https://medium.com/*",
+    "crmSystem": "https://your-crm-system.com/api"
+  },
+  "uiCustomizations": {
+    "theme": "default",
+    "navigationEase": true
+  },
+  "featureToggles": {
+    "predictiveAnalytics": true,
+    "contentPersonalization": true,
+    "dynamicContentModeration": true
+  }
+}

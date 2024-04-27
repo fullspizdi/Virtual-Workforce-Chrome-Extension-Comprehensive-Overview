@@ -1,0 +1,76 @@
+/* General styling for the popup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+}
+
+.container {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+header img {
+    width: 48px;
+    height: 48px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 16px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+#statusText {
+    font-size: 14px;
+    color: #666;
+}
+
+.controls button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.controls button:hover {
+    background-color: #357ab8;
+}
+
+.preferences select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    color: #aaa;
+}

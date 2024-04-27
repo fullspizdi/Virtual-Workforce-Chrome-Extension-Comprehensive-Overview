@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Workforce Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Virtual Workforce</h1>
+            <img src="images/icon48.png" alt="Virtual Workforce Logo">
+        </header>
+        <section class="status">
+            <h2>Status</h2>
+            <p id="statusText">Checking...</p>
+        </section>
+        <section class="controls">
+            <h2>Controls</h2>
+            <button id="activateBtn">Activate</button>
+            <button id="deactivateBtn">Deactivate</button>
+        </section>
+        <section class="preferences">
+            <h2>Preferences</h2>
+            <label for="contentPreference">Content Type:</label>
+            <select id="contentPreference">
+                <option value="trending">Trending</option>
+                <option value="latest">Latest</option>
+                <option value="personalized">Personalized</option>
+            </select>
+        </section>
+        <footer>
+            <p>Powered by AI and automation technologies</p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

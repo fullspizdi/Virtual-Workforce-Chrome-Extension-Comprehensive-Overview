@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.graph, .report {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+footer p {
+    color: #666;
+}
